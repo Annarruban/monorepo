@@ -1,0 +1,12 @@
+   git clone https://github.com/Annarruban/GitHub
+   git checkout -b feature
+   touch README.md
+   vi README.md
+   vi .gitignore
+   git add README.md 
+   git commit -m "i made 2 changes in files README.md and .gitignore"
+   git push
+   git commit --amend
+   git push --force
+   git checkout main
+   git merge feature
